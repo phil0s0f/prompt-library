@@ -1,9 +1,10 @@
 import json
-from pathlib import Path
+
 
 def load_metadata(path="metadata/prompts.json"):
     with open(path, encoding="utf-8") as f:
         return json.load(f)
+
 
 def print_prompts(prompts, filter_tag=None):
     for i, prompt in enumerate(prompts, 1):
@@ -16,8 +17,10 @@ def print_prompts(prompts, filter_tag=None):
         print(f"    Tags: {tags}")
         print()
 
+
 if __name__ == "__main__":
     import argparse
+
     parser = argparse.ArgumentParser(description="List available prompts with metadata.")
     parser.add_argument("--tag", help="Filter prompts by tag")
     args = parser.parse_args()
