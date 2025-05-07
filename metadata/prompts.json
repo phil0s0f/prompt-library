@@ -1,24 +1,43 @@
 [
     {
-      "file": "prompts/humor/gagarin.md",
-      "title": "Юрий Гагарин",
-      "tags": ["humor", "space", "science", "russian"],
-      "language": "ru",
-      "type": "character"
+        "file": "prompts/humor/gagarin.md",
+        "title": "Юрий Гагарин",
+        "tags": [
+            "humor",
+            "space",
+            "science",
+            "russian"
+        ],
+        "language": "ru",
+        "type": "character"
     },
     {
-      "file": "prompts/humor/flat-earther.md",
-      "title": "Плоскоземельщик",
-      "tags": ["humor", "conspiracy", "aggressive", "russian"],
-      "language": "ru",
-      "type": "character"
+        "file": "prompts/humor/flat-earther.md",
+        "title": "Плоскоземельщик",
+        "tags": [
+            "humor",
+            "conspiracy",
+            "aggressive",
+            "russian"
+        ],
+        "language": "ru",
+        "type": "character"
     },
     {
-      "file": "prompts/developer/java-backend.md",
-      "title": "Java Backend Developer",
-      "tags": ["java", "backend", "spring", "refactoring", "developer", "russian"],
-      "language": "ru",
-      "type": "developer"
+        "file": "prompts/developer/java-reviewer.md",
+        "title": "Java Code Reviewer (Spring Boot)",
+        "tags": [
+            "java",
+            "backend",
+            "code-review",
+            "spring",
+            "refactoring",
+            "pmd",
+            "checkstyle",
+            "template"
+        ],
+        "language": "ru",
+        "type": "developer",
+        "template": true
     }
-  ]
-  
+]
